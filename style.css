@@ -75,9 +75,6 @@ section {
 
 h2 {
   padding: 17px;
-  /* height:25%; */
-
-
 }
 
 p {
@@ -127,7 +124,6 @@ ul {
   }
 
   article {
-    /* padding: 0px 30px 0 30px; */
     width: 100%;
     position: relative;
     min-height: 350px;
@@ -135,8 +131,8 @@ ul {
     background: #f4f4f4;
     border: 1px solid #efefef;
     text-align: center;
-max-width: none;
-min-width: unset;
+    max-width: none;
+    min-width: unset;
 
   }
 
@@ -148,16 +144,12 @@ min-width: unset;
   }
 
   img {
-    /* margin: 30px 0 0px 0px; */
     height: 40%;
-    /* width: 80%; */
-
     align-self: center;
   }
 
   p {
     display: none;
-    /* position: absolute; */
   }
 
   ul {

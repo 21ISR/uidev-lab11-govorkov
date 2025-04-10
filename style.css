@@ -43,7 +43,7 @@ ul {
 
 article {
   padding: 20px 50px;
-  min-width: 10%;
+  min-width: 400px;
   max-width: 25%;
   min-height: 300px;
   max-height: 600px;
@@ -59,6 +59,7 @@ article {
 img {
   width: auto;
   max-width: 100%;
+  min-width: 15%;
   align-self: center;
 }
 
@@ -114,7 +115,9 @@ ul {
   background-color: #dbdbdb;
   color: rgb(159, 159, 159);
 }
-
+.cool-form{
+  display: none;
+}
 @media (max-width: 768px) {
   section {
     display: flex;
@@ -160,4 +163,26 @@ min-width: unset;
   ul {
     display: none;
   }
+
+  label{
+    color:#ffffff;
+  }
+  .cool-form{
+    display: block;
+  }
+  form{
+    display: flex;
+    justify-content: center;
+
+  }
+  nav{
+    background-color: #444444;
+    padding: 20px;
+  }
+  select{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 13px;
+  }
+
 }
